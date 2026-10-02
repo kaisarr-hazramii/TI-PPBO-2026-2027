@@ -12,5 +12,13 @@ public class Array2DDemo {
             }
             System.out.println(); // pindah baris (1 baris matriks)
         }
+
+            int totalmatriks = 0;
+            for (int baris = 0; baris < matriks.length; baris++) {
+                for (int kolom = 0; kolom < matriks[baris].length; kolom++) {
+                    totalmatriks += matriks[baris][kolom];
+                }
+            }
+            System.out.println("Total seluruh elemen: " + totalmatriks);
     }
 }

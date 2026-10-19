@@ -5,7 +5,7 @@ public class MethodDemo {
     }
 
     public static void main(String[] args) {
-       tampilkanBiodata("Budi", 20, "Bandung");
+       tampilkanBiodata("najwa", 19, "b.Aceh");
 
     }
 }
